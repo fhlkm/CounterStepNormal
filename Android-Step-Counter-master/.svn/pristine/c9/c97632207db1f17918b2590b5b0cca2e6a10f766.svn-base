@@ -1,0 +1,59 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+    
+		<LinearLayout 
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:paddingTop="@dimen/activity_vertical_margin"
+		    tools:context=".MainActivity" 
+		    android:id="@+id/label1"
+		    android:orientation="horizontal">
+		    
+		   <LinearLayout
+		       android:layout_width="match_parent"
+		       android:layout_height="70dp"
+		       android:layout_weight="1"
+		       android:orientation="vertical" >
+					 
+					 <Button
+					     android:layout_height="match_parent"
+					     android:layout_width="wrap_content"
+					     android:text="Reset Steps"
+					     android:id="@+id/resetSteps"/>
+					 
+			</LinearLayout>
+					 
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="70dp"
+				android:layout_weight="1"
+				android:orientation="vertical" >
+
+				<Button
+				    android:id="@+id/pause"
+				    android:layout_width="wrap_content"
+				    android:layout_height="match_parent"
+				    android:text="Pauses" />
+					 
+			</LinearLayout>
+					 
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="70dp"
+				android:layout_weight="1"
+				android:orientation="vertical" >
+		
+					  <Button
+					     android:layout_height="match_parent"
+					     android:layout_width="wrap_content"
+					     android:text="Resume"
+					     android:id="@+id/resume"/>
+					  
+			</LinearLayout>
+		
+		</LinearLayout>
+</ScrollView>
